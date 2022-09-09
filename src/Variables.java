@@ -27,11 +27,14 @@ public class Variables
 
         String wordsPhrases = "Hello, World!";
 
-        System.out.println("/////////////////////////////////");
-        System.out.println("*Some Person            07/18/22*");
-        System.out.println("*                               *");
-        System.out.println("*        integer types          *");
-        System.out.println("*                               *");
-        System.out.println("*8 bit - byteOne = "+"\t\t*");
+        System.out.println(small);
+        System.out.println(medium);
+        System.out.println(normal);
+        System.out.println(large);
+        System.out.println(lessAccurate);
+        System.out.println(moreAccurate);
+        System.out.println(single);
+        System.out.println(Lightswitch);
+        System.out.println(wordsPhrases);
     }
 }
