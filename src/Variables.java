@@ -16,7 +16,17 @@ public class Variables
 
         //reals -- DECIMALS!!
         float lessAccurate = 39.627F; //32 bit   ~7 digits of accuracy
-        double moreAccurate = 847956.7336485903;   //64 bit   ~15 digits of accuracy    MOST USED
+        double moreAccurate = 847956.7336485903;   //64 bit   ~15 digits of accuracy//    MOST USED
+
+        //characters, are really integers
+        char single = '&';      //16 bit    655355 characters in the bank (UNICODE)
+        // 'A' == 65        'a' == 97       '0' == 48
+
+        //boolean
+        boolean Lightswitch = true;         //true or false
+
+        String wordsPhrases = "Hello, World!";
+
         System.out.println("/////////////////////////////////");
         System.out.println("*Some Person            07/18/22*");
         System.out.println("*                               *");
